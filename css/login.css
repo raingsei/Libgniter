@@ -1,0 +1,55 @@
+body#login-screen{
+	color:#033;
+	font:10pt 'Trebuchet MS','Arial';
+	max-width:800px;
+	margin:5px auto;
+	padding:5px 20px;
+	text-align:center;
+}
+#login-screen form{
+	margin:5px auto;
+	padding:10px;
+	border:solid 1px #aaa;
+	width:260px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+}
+#login-screen h1{
+	font-size:140%;
+	color:#8bab32;
+}
+#login-screen label,input{
+	float:left;
+	padding:2px;
+	margin:2px;
+}
+#login-screen label{
+	text-align:right;
+}
+#login-screen input{
+	width:150px;
+}
+#login-screen label,input[type="submit"]{
+	width:75px;
+}
+#login-screen input[type="submit"]{
+	padding:0;
+}
+
+#login-screen .error{
+	background:#fcc;
+	border:solid #c22;
+	border-width:2px 0;
+	color:#c22;
+	padding:10px;
+}
+#login-screen #logo{
+	margin:0 auto;
+}
+#copyright{
+	color:#888;
+	font-size:80%;
+}
+#copyright a{
+	color:#888;
+}

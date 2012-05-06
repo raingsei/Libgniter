@@ -1,0 +1,95 @@
+/* 
+    Document   : style
+    Created on : May 1, 2012, 2:49:55 PM
+    Author     : chlang
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+.leftFloat{
+        width: 150px;
+        float: left;
+        margin: auto;
+    }
+    .rightFloat{
+        float: right;
+    }
+    #toolbar{
+        width: 150px;
+        margin: auto;
+        font-family: helvetica, arial;
+    }
+    #container {
+     width: 600px;
+     margin: auto;
+     font-family: helvetica, arial;
+    }
+
+    table {
+     width: 760px;
+     margin-bottom: 10px;
+    }
+
+    td {
+     border-right: 1px solid #aaaaaa;
+     padding: 0.5em;
+    }
+
+    td:last-child {
+     border-right: none;
+    }
+
+    th {
+     text-align: left;
+     padding-left: 0.5em;
+     background: #cac9c9;
+    border-bottom: 1px solid white;
+    border-right: 1px solid #aaaaaa;
+    }
+    tr:last-child{
+        background: #ffffff;
+    }
+
+    #pagination a, #pagination strong {
+     background: #e3e3e3;
+     padding: 4px 7px;
+     text-decoration: none;
+    border: 1px solid #cac9c9;
+    color: #292929;
+    font-size: 13px;
+    }
+
+    #pagination strong, #pagination a:hover {
+     font-weight: normal;
+     background: #cac9c9;
+    }
+
+.rightFloat{
+    float: right;
+}
+
+#logo{
+	background:url('../img/logo-h.gif') no-repeat top left;
+	float:left;
+	height:60px;																/*80px - padding-top*/
+	margin:0;
+	padding:20px 0 0 94px;
+	width:430px;
+}
+#userbox{float:right;margin:25px 5px;text-align:right}
+
+body{
+	font:10pt 'Trebuchet MS','Arial';
+	max-width:1000px;
+	margin:5px auto;
+	min-width:800px;
+}
